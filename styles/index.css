@@ -1,109 +1,109 @@
 html, body {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'SF UI Display', 'System Font', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 24pt;
-	vertical-align: baseline;
-	-webkit-font-smoothing: antialiased;
-	line-height: 28pt;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', 'SF UI Text', 'System Font', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24pt;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  line-height: 28pt;
 }
 
 body {
-	background-image: url('../images/anna.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+  background-image: url('../images/anna.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
-	margin-top: 0.5em;
-	color: #fff;
-	text-shadow: 1px 2px 3px #000;
-	font-size: 2em;
-	font-weight: bold;
-	text-align: center;
+  margin-top: 0.5em;
+  color: #fff;
+  text-shadow: 1px 2px 3px #000;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
 }
 
 a {
-	text-decoration: none;
-	-webkit-transition: color 0.2s ease-out;
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
 }
 
 #main a {
-	color: #fff;
+  color: #fff;
 }
 
 #main a:link {
-	color: #fff;
+  color: #fff;
 }
 
 #main a:hover {
-	color: #0ae;
+  color: #0ae;
 }
 
 #main a:visited:hover {
-	color: #0ae;
+  color: #0ae;
 }
 
 #main a:active {
-	color: #ea0;
+  color: #ea0;
 }
 
 #main a:visited {
-	color: #eae;
+  color: #eae;
 }
 
 #main2 a {
-	color: #000;
+  color: #000;
 }
 
 #main2 a:link {
-	color: #000;
+  color: #000;
 }
 
 #main2 a:hover {
-	color: #f51;
+  color: #f51;
 }
 
 #main2 a:visited:hover {
-	color: #f51;
+  color: #f51;
 }
 
 #main2 a:active {
-	color: #15f;
+  color: #15f;
 }
 
 #main2 a:visited {
-	color: #151;
+  color: #151;
 }
 
 p {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 h1 {
-	text-align: center;
+  text-align: center;
 }
 
 #wrapper {
-	position: relative;
+  position: relative;
 }
 
 #main, #main2 {
-	position: absolute;
+  position: absolute;
 }
 
 #main {
-	color: #fff;
-	text-shadow: 1px 2px 3px #000;
-	text-align: left;
+  color: #fff;
+  text-shadow: 1px 2px 3px #000;
+  text-align: left;
 }
 
 #main2 {
-	color: #000;
-	text-shadow: 1px 2px 3px #fff;
-	text-align: right;
-	left: 50%;
-	width: 50%;
+  color: #000;
+  text-shadow: 1px 2px 3px #fff;
+  text-align: right;
+  left: 50%;
+  width: 50%;
 }

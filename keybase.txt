@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/ebertek
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ebertek.com
+  * I am ebertek (https://keybase.io/ebertek) on keybase.
+  * I have a public key with fingerprint 3E82 225E DFF9 24A4 1951  7D1D 33D2 5F5F C0F1 D77A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "3e82225edff924a419517d1d33d25f5fc0f1d77a",
+            "host": "keybase.io",
+            "key_id": "33d25f5fc0f1d77a",
+            "kid": "0101b814eef25c70c4457513307e306da8e183e2e7ac86c5a239fa2735f4a17094f50a",
+            "uid": "8f01f0a81d7405a7575238b952ca3019",
+            "username": "ebertek"
+        },
+        "service": {
+            "hostname": "ebertek.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434021904,
+    "expire_in": 157680000,
+    "prev": "e0a067c0211375ef74b20b76ac48000be9dfd642e2156f8a25f9b92227d228ae",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMM3AnicZZJtUFRVGMeXgmx3JHeYnKFArKuAyEvnvu29d0kMBsjkZSJNHEXgvpy7
+3AF3t7u76I5iQmhSCDNOiWjpImk6gq0wk2tkxWYF0QygZZhoS7xmOAniotBA9zL1
+oel8OXOe5/f/P+d5zrkS/LhGF/D+mtX+sANDOQFd7UkOzetOq34XwlkEJ2LchRTD
+hU2UzCYoW2XJbEeMCA5pDMNIKIgigxEsgTIkSgmogOMCRoqkyAMRFSiKReKQIotN
+VSg2HGuDCZJFiSmHAklQff7PFy8kAApQjkYJCEWM5CnAEwRJkSiOAwriwCCwNERp
+HGKQYnnawJMshjMii1E4KRIsSgGGEEmg2jkW7GgRoCJgaaUIAUiWUrwwnOYYEuNZ
+HKCMCtqgbGa3Q4WGHJTtsBgpi0OUYKnEQ3UCaiP/BRJ4y3ZFaZUtdgtvKVESRXa7
+1ajq7E6rCu6AXME/FgWcZBaUISqCUijbJIsZMaIKydsl1RMlcAJgKAOIOATutEoy
+LJBUgqQMNFCWWgaWqrUBCwwUr7AoTpFQpAgOAxxlYHlCBTnICKJgIDCIoaRBpFll
+vgzHKK9FCRhGsxBRm3rDbEGMjHJN1qRY2iSTmbU7ZIiUedvzAjUBOs0TQY+p30Cj
+0+r//RzaV/SaY5v2uC9VZpfXTLQWXfBF/vYwXZ5IOnOqPn6qNKzT19fTktHgRc96
+Pl61NKvSGpbccWD8zm2nZ9Q1vDd+ZuWPY7Mbj67LTRkcBS1h23InPQd75x82zdRs
+dOYfnZa/b5qsk+d955e6YnvDx3Oq59roHB05dWJiNmXF1sO+UUd3x2RQbdSRXnFD
+54OtoefK1zhqK5bVlnRX7e/uP9GTWb0qI7nuw2+/jPg6jcz6Y9/pZaFBU51nH822
+jUa+2vhOefvJki1+1HvcnTAbXD/XftpdX7ytcqi/46+O+AeXG3Zad98bIv0rtkQ7
+Q0J3hIwMzix5sjnv8ur8woqmVK21OvxSX3+ttyj73vKrI0+7C6eSZlo3XZ8Ocq+s
+z/CvrUpr+fSjrOTAa4aQF6fPJNpi09beCN3z1Y10x/Kyl/e789419Xw2E43NuV6L
+cfXevR1D1la8J0aB8cSBL44kjxvX+cdmf+5q/T2gS1eJS65Hz0+Zlow058RH3L+1
+3v7U5xG+dPObw7nZjb1zL1W5LHe9+0xx17sa/rxl25zzTKnWe7Bscao3dtCDfnd+
+dPeVm9r7mW8P6H8hYYjn5luZV4+HD1Trpb6JY6fGhit/unPhk0O++Z7pZ/VtREIn
+2Hxy/aLG7rqUwhee++HitYHExcFtSV2HmqOdWiTqg77yvYHnLtqiImPy89w1Nb9u
++KYCT/0bVve4ZA==
+=lDI7
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ebertek
+
+==================================================================

@@ -2,10 +2,11 @@ html, body {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font-family: 'San Francisco', -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', 'SF UI Text', 'System Font', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   font-size: 24pt;
   vertical-align: baseline;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
   line-height: 28pt;
 }
 
@@ -27,7 +28,7 @@ header {
 
 a {
   text-decoration: none;
-  -webkit-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
 }
 
 #main a {

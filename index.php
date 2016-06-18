@@ -34,7 +34,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index,follow" />
+    <meta name="googlebot" content="index, follow" />
 
     <base href="https://ebertek.com/" />
     <meta name="url" content="https://ebertek.com/" />

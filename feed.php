@@ -20,10 +20,10 @@
   $rssfeed .= '<rss version="2.0">';
   $rssfeed .= '<channel>';
   $rssfeed .= '<title>Esik-e a hó?</title>';
-  $rssfeed .= "<link>http://www.ebertek.com/esikeaho.php?w=$w</link>";
+  $rssfeed .= "<link>https://ebertek.com/esikeaho.php?w=$w</link>";
   $rssfeed .= '<description>Esik-e a hó?</description>';
   $rssfeed .= '<language>hu-hu</language>';
-  $rssfeed .= '<copyright>Copyright (C) 2012 ebertek.com</copyright>';
+  $rssfeed .= '<copyright>Copyright (C) 2012-2016 ebertek.com</copyright>';
 
   $rssfeed .= '<item>';
   $rssfeed .= '<title>' . $valasz . '</title>';

@@ -1,1 +1,13 @@
-David Ebert is a web2-addicted engineer bunchie with magical Apple devices.
+/* TEAM */
+  David Ebert
+  Contact: ebertek@gmail.com
+  Twitter: @ebertek
+  Location: Budapest, Hungary
+
+/* THANKS */
+
+
+/* SITE */
+  Last update: 2016/06/18
+  Language: English
+  Software: Coda

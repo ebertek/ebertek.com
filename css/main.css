@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-  background-image: url('../images/anna.jpg');
+  background-image: url('../img/anna.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

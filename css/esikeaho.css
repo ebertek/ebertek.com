@@ -17,6 +17,7 @@ a {
   color: #fff;
   text-decoration: none;
   -webkit-transition: color 0.2s ease-out;
+          transition: color 0.2s ease-out;
 }
 
 a:link {

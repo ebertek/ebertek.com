@@ -22,12 +22,12 @@
   $call = array("callto", "tel", "tel", "tel");
   $fsq = array("https://foursquare.com/ebertek", "https://foursquare.com/ebertek", "foursquare://users/200263", "https://foursquare.com/ebertek");
 ?>
-<!doctype html>
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>ebertek.com</title>
     <meta name="Description" content="David Ebert is an introverted college dropout with Apple certifications and a Netflix addiction." />

@@ -13,12 +13,12 @@
   $link   = $x->channel->item->link;
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu-HU" lang="hu-HU">
 
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Esik-e a hó?</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />

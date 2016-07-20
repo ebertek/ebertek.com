@@ -13,10 +13,10 @@
     $chosen = 2;
   }
   /**
-  /* 0: default;
-  /* 1: Macintosh;
-  /* 2: iOS: iPhone, iPad, iPod;
-  /* 3: Android;
+  /* 0: default
+  /* 1: macOS
+  /* 2: iOS: iPhone, iPad, iPod
+  /* 3: Android
    */
   $message = array("mailto", "imessage", "sms", "mailto");
   $call = array("callto", "tel", "tel", "tel");
@@ -68,7 +68,6 @@
         </p>
         <p>
           <?php if ($chosen==1 || $chosen==2) echo '<a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a><br />'; ?>
-          <?php if ($chosen==1 || $chosen==2) echo '<a href="findmyfriends:ebertek@mac.com" title="Find My Friends">Find My Friends</a><br />'; ?>
         </p>
       </div>
 

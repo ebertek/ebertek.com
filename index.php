@@ -1,7 +1,7 @@
 <?php
   $useragent = $_SERVER['HTTP_USER_AGENT'];
-  $os = array("default", "Macintosh", "iPhone", "iPad", "iPod", "Android");
-  $chosen = 0;
+  $os        = array("default", "Macintosh", "iPhone", "iPad", "iPod", "Android");
+  $chosen    = 0;
   $tombcount = count($os);
   for ($i = 0; $i < $tombcount; $i++) {
     if (preg_match("/$os[$i]/", $useragent)) {
@@ -56,10 +56,11 @@
           <a href="twitter:@ebertek" title="Twitter">Twitter</a><br />
           <a href="fb://profile/1151623436" title="Facebook">Facebook</a><br />
           <a href="<?php echo $message[$chosen]; ?>:ebertek@mac.com" title="Message">ebertek@mac.com</a><br />
-          <a href="<?php echo $call[$chosen]; ?>:+36302750065" title="Cellphone">+36 (30) 275 0065</a><br />
+          <a href="<?php echo $call[$chosen]; ?>:+36302750065" title="Call">+36 (30) 275 0065</a><br />
         </p>
         <p>
           <a href="https://www.linkedin.com/in/ebertdavid" title="LinkedIn">LinkedIn</a><br />
+          <a href="https://github.com/ebertek" title="GitHub">GitHub</a><br />
           <a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a><br />
           <a href="https://trakt.tv/users/ebertek" title="trakt.tv">trakt.tv</a><br />
           <a href="<?php echo $fsq[$chosen]; ?>" title="foursquare">foursquare</a><br />
@@ -67,30 +68,7 @@
         </p>
         <p>
           <?php if ($chosen==1 || $chosen==2) echo '<a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a><br />'; ?>
-          <?php if ($chosen==2) echo '<a href="findmyfriends:ebertek@mac.com" title="Find My Friends">Find My Friends</a><br />'; ?>
-        </p>
-      </div>
-
-      <div id="main2">
-        <h2 contenteditable="true">
-          &nbsp;
-        </h2>
-        <p contenteditable="true">
-          <br />
-          <br />
-          <br />
-          <br />
-        </p>
-        <p contenteditable="true">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-        </p>
-        <p contenteditable="true">
-          <?php if ($chosen==1 || $chosen==2) echo '<br />'; ?>
-          <?php if ($chosen==2) echo '<br />'; ?>
+          <?php if ($chosen==1 || $chosen==2) echo '<a href="findmyfriends:ebertek@mac.com" title="Find My Friends">Find My Friends</a><br />'; ?>
         </p>
       </div>
 

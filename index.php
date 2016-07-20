@@ -13,10 +13,10 @@
     $chosen = 2;
   }
   /**
-  /* 0: default
-  /* 1: macOS
-  /* 2: iOS: iPhone, iPad, iPod
-  /* 3: Android
+   * 0: default
+   * 1: macOS
+   * 2: iOS: iPhone, iPad, iPod
+   * 3: Android
    */
   $message = array("mailto", "imessage", "sms", "mailto");
   $call = array("callto", "tel", "tel", "tel");

@@ -61,7 +61,8 @@
           <a href="<?php echo $call[$device]; ?>:+36302750065" title="Call">+36 (30) 275 0065</a><br />
         </p>
         <p>
-          <?php if ($country_code == "HU") echo '<a href="cv.pdf" title="Curriculum Vitæ">CV / Resume (🇭🇺)</a><br />'; ?>
+          <a href="cv-en.pdf" title="Curriculum Vitæ">CV / Résumé</a><br />
+          <?php if ($country_code == "HU") echo '<a href="cv.pdf" title="Hungarian Curriculum Vitæ">CV / Résumé (🇭🇺)</a><br />'; ?>
           <a href="https://www.linkedin.com/in/ebertdavid" title="LinkedIn">LinkedIn</a><br />
           <a href="https://github.com/ebertek" title="GitHub">GitHub</a><br />
           <a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a><br />

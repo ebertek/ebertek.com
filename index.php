@@ -32,11 +32,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>ebertek.com</title>
-    <meta name="Description" content="David Ebert is a taciturn ISTJ; a perpetual student @ BUTE; a sysadmin with some Apple certifications; a Netflix addict." />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="Description" content="David Ebert is a taciturn ISTJ; a perpetual engineering student; a sysadmin with some Apple certifications; a Netflix addict." />
+    <meta name="viewport"    content="width=device-width, initial-scale=1" />
 
-    <meta name="robots"    content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
+    <meta name="robots"      content="index, follow" />
+    <meta name="googlebot"   content="index, follow" />
 
     <base href="https://ebertek.com/" />
     <meta name="url" content="https://ebertek.com/" />
@@ -62,7 +62,7 @@
         </p>
         <p>
           <a href="cv-en.pdf" title="Curriculum Vitæ">CV / Résumé</a><br />
-          <?php if ($country_code == "HU") echo '<a href="cv.pdf" title="Hungarian Curriculum Vitæ">CV / Résumé (🇭🇺)</a><br />'; ?>
+<?php if ($country_code == "HU") echo '          <a href="cv.pdf" title="Hungarian Curriculum Vitæ">CV / Résumé (🇭🇺)</a><br />' . PHP_EOL; ?>
           <a href="https://www.linkedin.com/in/ebertdavid" title="LinkedIn">LinkedIn</a><br />
           <a href="https://github.com/ebertek" title="GitHub">GitHub</a><br />
           <a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a><br />
@@ -71,7 +71,7 @@
           <a href="https://www.flickr.com/photos/ebertek" title="flickr">flickr</a><br />
         </p>
         <p>
-          <?php if ($device == 1 || $device == 2) echo '<a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a><br />'; ?>
+<?php if ($device == 1 || $device == 2) echo '          <a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a><br />' . PHP_EOL; ?>
         </p>
       </div>
 

@@ -38,8 +38,8 @@
     <meta name="robots"      content="index, follow" />
     <meta name="googlebot"   content="index, follow" />
 
-    <base href="https://ebertek.com/" />
-    <meta name="url" content="https://ebertek.com/" />
+    <base                       href="https://ebertek.com/" />
+    <meta name="url"         content="https://ebertek.com/" />
 
     <link href="humans.txt"   rel="author"     type="text/plain" />
     <link href="css/main.css" rel="stylesheet" type="text/css" />

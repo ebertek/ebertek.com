@@ -54,25 +54,25 @@
         <h2>
           contact
         </h2>
-        <p>
-          <a href="twitter:@ebertek" title="Twitter">Twitter</a><br />
-          <a href="fb://profile/1151623436" title="Facebook">Facebook</a><br />
-          <a href="<?php echo $message[$device]; ?>:ebertek@mac.com" title="Message">ebertek@mac.com</a><br />
-          <a href="<?php echo $call[$device]; ?>:+36302750065" title="Call">+36 (30) 275 0065</a><br />
-        </p>
-        <p>
-          <a href="cv-en.pdf" title="Curriculum Vitæ">CV / Résumé</a><br />
-<?php if ($country_code == "HU") echo '          <a href="cv.pdf" title="Hungarian Curriculum Vitæ">CV / Résumé (🇭🇺)</a><br />' . PHP_EOL; ?>
-          <a href="https://www.linkedin.com/in/ebertdavid" title="LinkedIn">LinkedIn</a><br />
-          <a href="https://github.com/ebertek" title="GitHub">GitHub</a><br />
-          <a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a><br />
-          <a href="https://trakt.tv/users/ebertek" title="trakt.tv">trakt.tv</a><br />
-          <a href="<?php echo $fsq[$device]; ?>" title="foursquare">foursquare</a><br />
-          <a href="https://www.flickr.com/photos/ebertek" title="flickr">flickr</a><br />
-        </p>
-        <p>
-<?php if ($device == 1 || $device == 2) echo '          <a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a><br />' . PHP_EOL; ?>
-        </p>
+        <ul>
+          <li><a href="twitter:@ebertek" title="Twitter">Twitter</a></li>
+          <li><a href="fb://profile/1151623436" title="Facebook">Facebook</a></li>
+          <li><a href="<?php echo $message[$device]; ?>:ebertek@mac.com" title="Message">ebertek@mac.com</a></li>
+          <li><a href="<?php echo $call[$device]; ?>:+36302750065" title="Call">+36 (30) 275 0065</a></li>
+        </ul>
+        <ul>
+          <li><a href="cv-en.pdf" title="Curriculum Vitæ">CV / Résumé</a><br />
+<?php if ($country_code == "HU") echo '          <li><a href="cv.pdf" title="Hungarian Curriculum Vitæ">CV / Résumé (🇭🇺)</a></li>' . PHP_EOL; ?>
+          <li><a href="https://www.linkedin.com/in/ebertdavid" title="LinkedIn">LinkedIn</a></li>
+          <li><a href="https://github.com/ebertek" title="GitHub">GitHub</a></li>
+          <li><a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a></li>
+          <li><a href="https://trakt.tv/users/ebertek" title="trakt.tv">trakt.tv</a></li>
+          <li><a href="<?php echo $fsq[$device]; ?>" title="foursquare">foursquare</a></li>
+          <li><a href="https://www.flickr.com/photos/ebertek" title="flickr">flickr</a></li>
+        </ul>
+        <ul>
+<?php if ($device == 1 || $device == 2) echo '          <li><a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a></li>' . PHP_EOL; ?>
+        </ul>
       </div>
 
     </div>

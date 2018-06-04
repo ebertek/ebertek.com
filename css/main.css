@@ -39,6 +39,10 @@ a {
   transition: color 0.2s ease-out;
 }
 
+ul, li {
+  list-style-type: none;
+}
+
 #wrapper {
   position: relative;
 }

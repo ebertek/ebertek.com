@@ -2,7 +2,7 @@ html, body {
   margin: 0px;
   border: 0px;
   padding: 0px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 24pt;
   line-height: 28pt;
   vertical-align: baseline;
@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-  text-align: center;
+  font-size: 1.5em;
 }
 
 p {

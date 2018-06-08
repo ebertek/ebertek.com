@@ -32,14 +32,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>ebertek.com</title>
-    <meta name="Description" content="David Ebert is a taciturn ISTJ; a perpetual engineering student; a sysadmin with some Apple certifications; a Netflix addict." />
-    <meta name="viewport"    content="width=device-width, initial-scale=1" />
+    <meta name="viewport"     content="width=device-width, initial-scale=1.0" />
+    <meta name="author"       content="David Ebert" />
+    <meta name="description"  content="David Ebert is a taciturn ISTJ; a perpetual engineering student; a sysadmin with some Apple certifications; a Netflix addict." />
 
-    <meta name="robots"      content="index, follow" />
-    <meta name="googlebot"   content="index, follow" />
+    <meta name="robots"       content="index, follow" />
+    <meta name="googlebot"    content="index, follow" />
 
-    <base                       href="https://ebertek.com/" />
-    <meta name="url"         content="https://ebertek.com/" />
+    <base                     href="https://ebertek.com/" />
 
     <link href="humans.txt"   rel="author"     type="text/plain" />
     <link href="css/main.css" rel="stylesheet" type="text/css" />
@@ -51,9 +51,9 @@
       <header>ebertek.com</header>
 
       <div id="main">
-        <h2>
+        <h1>
           contact
-        </h2>
+        </h1>
         <ul>
           <li><a href="twitter:@ebertek" title="Twitter">Twitter</a></li>
           <li><a href="fb://profile/1151623436" title="Facebook">Facebook</a></li>
@@ -61,8 +61,8 @@
           <li><a href="<?php echo $call[$device]; ?>:+36302750065" title="Call">+36 (30) 275 0065</a></li>
         </ul>
         <ul>
-          <li><a href="cv-en.pdf" title="Curriculum Vitæ">CV / Résumé</a><br />
-<?php if ($country_code == "HU") echo '          <li><a href="cv.pdf" title="Hungarian Curriculum Vitæ">CV / Résumé (🇭🇺)</a></li>' . PHP_EOL; ?>
+          <li><a href="cv-en.pdf" title="Curriculum Vitæ" type="application/pdf">CV / Résumé</a><br />
+<?php if ($country_code == "HU") echo '          <li><a href="cv.pdf" hreflang="hu-HU" title="Hungarian Curriculum Vitæ" type="application/pdf">CV / Résumé (🇭🇺)</a></li>' . PHP_EOL; ?>
           <li><a href="https://www.linkedin.com/in/ebertdavid" title="LinkedIn">LinkedIn</a></li>
           <li><a href="https://github.com/ebertek" title="GitHub">GitHub</a></li>
           <li><a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a></li>

@@ -17,6 +17,10 @@ body {
   background-attachment: fixed;
 }
 
+#wrapper {
+  position: relative;
+}
+
 header {
   margin-top: 0.5em;
   color: #fff;
@@ -51,30 +55,26 @@ ul, li {
   padding: 0;
 }
 
-#wrapper {
-  position: relative;
-}
-
-#main a {
+main a {
   color: #fff;
 }
 
-#main a:link {
+main a:link {
   color: #fff;
 }
 
-#main a:hover {
+main a:hover {
   color: #0ae;
 }
 
-#main a:active {
+main a:active {
   color: #ea0;
 }
 
-#main a:visited {
+main a:visited {
   color: #eae;
 }
 
-#main a:visited:hover {
+main a:visited:hover {
   color: #0ae;
 }

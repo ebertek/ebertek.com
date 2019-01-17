@@ -70,6 +70,9 @@
           <li><a href="<?php echo $fsq[$device]; ?>" title="foursquare">foursquare</a></li>
           <li><a href="https://www.flickr.com/photos/ebertek" title="flickr">flickr</a></li>
         </ul>
+        <ul>
+          <li><a href="https://trips-n-tricks.co.uk" title="Trips'n'Tricks">Trips'n'Tricks</a></li>
+        </ul>
       </main>
 
     </div>

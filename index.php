@@ -31,7 +31,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>ebertek.com</title>
+    <title>David Ebert</title>
     <meta name="viewport"     content="width=device-width, initial-scale=1.0" />
     <meta name="author"       content="David Ebert" />
     <meta name="description"  content="David Ebert is a taciturn ISTJ; a perpetual engineering student; a sysadmin with some Apple certifications; a Netflix addict." />
@@ -48,7 +48,7 @@
   <body>
     <div id="wrapper">
 
-      <header>ebertek.com</header>
+      <header>David Ebert</header>
 
       <main>
         <h1>contact</h1>

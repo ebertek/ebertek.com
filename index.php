@@ -62,9 +62,9 @@
         <ul>
           <li><a href="cv-en.pdf" title="Curriculum Vitæ" type="application/pdf">CV / Résumé</a><br />
 <?php if ($country_code == "HU") echo '          <li><a href="cv.pdf" hreflang="hu-HU" title="Hungarian Curriculum Vitæ" type="application/pdf">CV / Résumé (🇭🇺)</a></li>' . PHP_EOL; ?>
-          <li><a href="https://www.linkedin.com/in/ebertdavid" title="LinkedIn">LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/in/ebertdavid/" title="LinkedIn">LinkedIn</a></li>
           <li><a href="https://github.com/ebertek" title="GitHub">GitHub</a></li>
-          <li><a href="https://www.instagram.com/ebertek" title="Instagram">Instagram</a></li>
+          <li><a href="https://www.instagram.com/ebertek/" title="Instagram">Instagram</a></li>
           <li><a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a></li>
           <li><a href="https://trakt.tv/users/ebertek" title="trakt.tv">trakt.tv</a></li>
           <li><a href="<?php echo $fsq[$device]; ?>" title="foursquare">foursquare</a></li>

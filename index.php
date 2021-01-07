@@ -21,8 +21,6 @@
   $message = array("mailto", "imessage", "sms", "mailto");
   $call    = array("callto", "tel", "tel", "tel");
   $fsq     = array("https://foursquare.com/ebertek", "https://foursquare.com/ebertek", "foursquare://users/200263", "https://foursquare.com/ebertek");
-
-  $country_code = $_SERVER["HTTP_CF_IPCOUNTRY"]; // https://support.cloudflare.com/hc/en-us/articles/200168236-What-does-Cloudflare-IP-Geolocation-do-
 ?>
 <!DOCTYPE html>
 
@@ -60,8 +58,7 @@
 <?php if ($device == 1 || $device == 2) echo '          <li><a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a></li>' . PHP_EOL; ?>
         </ul>
         <ul>
-          <li><a href="cv-en.pdf" title="Curriculum Vitæ" type="application/pdf">CV / Résumé</a><br />
-<?php if ($country_code == "HU") echo '          <li><a href="cv.pdf" hreflang="hu-HU" title="Hungarian Curriculum Vitæ" type="application/pdf">CV / Résumé (🇭🇺)</a></li>' . PHP_EOL; ?>
+          <li><a href="cv-david_ebert.pdf" title="Curriculum Vitæ" type="application/pdf">CV / Résumé</a></li>
           <li><a href="https://www.linkedin.com/in/ebertdavid/" title="LinkedIn">LinkedIn</a></li>
           <li><a href="https://github.com/ebertek" title="GitHub">GitHub</a></li>
           <li><a href="https://www.instagram.com/ebertek/" title="Instagram">Instagram</a></li>

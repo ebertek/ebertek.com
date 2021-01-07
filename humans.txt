@@ -8,6 +8,6 @@
 
 
 /* SITE */
-  Last update: 2019/01/18
+  Last update: 2021/01/07
   Language: English
-  Software: Coda
+  Software: Atom

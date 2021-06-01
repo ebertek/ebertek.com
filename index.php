@@ -53,7 +53,7 @@
         <ul>
           <li><a href="<?php echo $twttr[$device]; ?>" title="Twitter">Twitter</a></li>
           <li><a href="<?php echo $fb[$device]; ?>" title="Facebook">Facebook</a></li>
-          <li><a href="<?php echo $message[$device]; ?>:ebertek@mac.com" title="Message">ebertek@mac.com</a></li>
+          <li><a href="<?php echo $message[$device]; ?>:ebertek@mac.com" title="Message">ebertek<wbr />@mac.com</a></li>
           <li><a href="<?php echo $call[$device]; ?>:+17605632793" title="Call">+1 (760) 563-2793</a></li>
 <?php if ($device == 1 || $device == 2) echo '          <li><a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a></li>' . PHP_EOL; ?>
         </ul>

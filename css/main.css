@@ -16,6 +16,7 @@ header {
 }
 
 main {
+  max-width: 15em;
   margin: 0 auto;
   color: #fff;
   text-shadow: 1px 2px 3px #000;
@@ -27,7 +28,6 @@ ul {
 }
 
 li {
-  max-width: 15em;
   padding: 12pt;
   margin: 24pt;
   border: 1px solid white;

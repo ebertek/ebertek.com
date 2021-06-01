@@ -18,9 +18,10 @@
    * 2: iOS: iPhone, iPad, iPod
    * 3: Android
    */
+  $twttr   = array("https://twitter.com/ebertek", "twitter:@ebertek", "twitter:@ebertek", "twitter:@ebertek");
+  $fb      = array("https://www.facebook.com/david.ebert", "fb://profile/1151623436", "fb://profile/1151623436", "fb://profile/1151623436");
   $message = array("mailto", "imessage", "sms", "mailto");
   $call    = array("callto", "tel", "tel", "tel");
-  $fsq     = array("https://foursquare.com/ebertek", "https://foursquare.com/ebertek", "foursquare://users/200263", "https://foursquare.com/ebertek");
 ?>
 <!DOCTYPE html>
 
@@ -50,10 +51,10 @@
 
       <main>
         <ul>
-          <li><a href="twitter:@ebertek" title="Twitter">Twitter</a></li>
-          <li><a href="fb://profile/1151623436" title="Facebook">Facebook</a></li>
+          <li><a href="<?php echo $twttr[$device]; ?>" title="Twitter">Twitter</a></li>
+          <li><a href="<?php echo $fb[$device]; ?>" title="Facebook">Facebook</a></li>
           <li><a href="<?php echo $message[$device]; ?>:ebertek@mac.com" title="Message">ebertek@mac.com</a></li>
-          <li><a href="<?php echo $call[$device]; ?>:+‭1 (760) 563-2793‬" title="Call">+1 (760) 563-2793</a></li>
+          <li><a href="<?php echo $call[$device]; ?>:+17605632793" title="Call">+1 (760) 563-2793</a></li>
 <?php if ($device == 1 || $device == 2) echo '          <li><a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a></li>' . PHP_EOL; ?>
         </ul>
         <ul>
@@ -63,7 +64,7 @@
           <li><a href="https://www.instagram.com/ebertek/" title="Instagram">Instagram</a></li>
           <li><a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a></li>
           <li><a href="https://trakt.tv/users/ebertek" title="trakt.tv">trakt.tv</a></li>
-          <li><a href="<?php echo $fsq[$device]; ?>" title="foursquare">foursquare</a></li>
+          <li><a href="https://foursquare.com/ebertek" title="foursquare">foursquare</a></li>
           <li><a href="https://www.flickr.com/photos/ebertek" title="flickr">flickr</a></li>
         </ul>
         <p>&nbsp;</p>

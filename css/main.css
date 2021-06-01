@@ -1,80 +1,69 @@
 html, body {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
+  background: gray;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Roboto', 'Helvetica Neue', system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 24pt;
-  line-height: 28pt;
   vertical-align: baseline;
   -moz-osx-font-smoothing: auto;
    -webkit-font-smoothing: antialiased;
 }
 
-body {
-  background-image: url('../img/anna.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-#wrapper {
-  position: relative;
-}
-
 header {
-  margin-top: 0.5em;
   color: #fff;
   text-shadow: 1px 2px 3px #000;
   font-size: 2em;
   font-weight: bold;
-  text-align: center;
 }
 
 main {
-  position: absolute;
+  width: 50%;
+  margin: 0 auto;
   color: #fff;
   text-shadow: 1px 2px 3px #000;
-  text-align: left;
 }
 
-h1 {
-  font-size: 1.5em;
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-p {
-  margin-bottom: 1em;
+li {
+  padding: 12pt;
+  margin: 24pt;
+  border: 1px solid white;
+  transition: border 0.2s ease-out;
+}
+
+li:hover {
+  border: 1px solid #0ae;
+}
+
+li:visited {
+  border: 2px solid red;
 }
 
 a {
   text-decoration: none;
+  color: #fff;
   transition: color 0.2s ease-out;
 }
 
-ul, li {
-  list-style-type: none;
-  padding: 0;
-}
-
-main a {
+a:link {
   color: #fff;
 }
 
-main a:link {
-  color: #fff;
-}
-
-main a:hover {
+a:hover {
   color: #0ae;
 }
 
-main a:active {
+a:active {
   color: #ea0;
 }
 
-main a:visited {
+a:visited {
   color: #eae;
 }
 
-main a:visited:hover {
+a:visited:hover {
   color: #0ae;
 }

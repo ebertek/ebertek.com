@@ -32,7 +32,7 @@
     <title>David Ebert</title>
     <meta name="viewport"     content="width=device-width, initial-scale=1.0" />
     <meta name="author"       content="David Ebert" />
-    <meta name="description"  content="David Ebert is a taciturn ISTJ; a perpetual engineering student; a sysadmin with some Apple certifications; a Netflix addict." />
+    <meta name="description"  content="David Ebert is a taciturn introvert; a perpetual engineering student; a sysadmin; a Netflix addict; a panda." />
 
     <meta name="robots"       content="index, follow" />
     <meta name="googlebot"    content="index, follow" />
@@ -49,12 +49,11 @@
       <header>David Ebert</header>
 
       <main>
-        <h1>contact</h1>
         <ul>
           <li><a href="twitter:@ebertek" title="Twitter">Twitter</a></li>
           <li><a href="fb://profile/1151623436" title="Facebook">Facebook</a></li>
           <li><a href="<?php echo $message[$device]; ?>:ebertek@mac.com" title="Message">ebertek@mac.com</a></li>
-          <li><a href="<?php echo $call[$device]; ?>:+36302750065" title="Call">+36 (30) 275 0065</a></li>
+          <li><a href="<?php echo $call[$device]; ?>:+‭1 (760) 563-2793‬" title="Call">+1 (760) 563-2793</a></li>
 <?php if ($device == 1 || $device == 2) echo '          <li><a href="facetime:ebertek@mac.com" title="FaceTime">FaceTime</a></li>' . PHP_EOL; ?>
         </ul>
         <ul>
@@ -67,6 +66,7 @@
           <li><a href="<?php echo $fsq[$device]; ?>" title="foursquare">foursquare</a></li>
           <li><a href="https://www.flickr.com/photos/ebertek" title="flickr">flickr</a></li>
         </ul>
+        <p>&nbsp;</p>
         <ul>
           <li><a href="https://trips-n-tricks.co.uk" title="Trips’n’Tricks">Trips’n’Tricks</a></li>
         </ul>

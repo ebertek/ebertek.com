@@ -1,8 +1,8 @@
 html, body {
-  background: gray;
+  background: #808080;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Roboto', 'Helvetica Neue', system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  font-size: 24pt;
+  font-size: 1.5em;
   vertical-align: baseline;
   -moz-osx-font-smoothing: auto;
    -webkit-font-smoothing: antialiased;
@@ -16,7 +16,6 @@ header {
 }
 
 main {
-  width: 50%;
   margin: 0 auto;
   color: #fff;
   text-shadow: 1px 2px 3px #000;
@@ -28,14 +27,16 @@ ul {
 }
 
 li {
+  max-width: 15em;
   padding: 12pt;
   margin: 24pt;
   border: 1px solid white;
-  transition: border 0.2s ease-out;
+  transition: border 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 li:hover {
   border: 1px solid #0ae;
+  background-color: #404040;
 }
 
 li:visited {

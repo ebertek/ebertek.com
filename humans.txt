@@ -1,13 +1,12 @@
 /* TEAM */
   David Ebert
   Contact: ebertek@gmail.com
-  Twitter: @ebertek
-  Location: Budapest, Hungary
+  Location: Askim, Sweden
 
 /* THANKS */
-
+  Melinda Bán
 
 /* SITE */
-  Last update: 2021/01/07
+  Last update: 2024-03-25
   Language: English
-  Software: Atom
+  Software: Visual Studio Code

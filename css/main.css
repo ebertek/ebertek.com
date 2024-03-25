@@ -10,7 +10,7 @@ html, body {
 
 header {
   color: #fff;
-  text-shadow: 1px 2px 3px #000;
+  text-shadow: 1pt 2pt 3pt #000;
   font-size: 2em;
   font-weight: bold;
 }
@@ -19,7 +19,7 @@ main {
   max-width: 15em;
   margin: 0 auto;
   color: #fff;
-  text-shadow: 1px 2px 3px #000;
+  text-shadow: 1pt 2pt 3pt #000;
 }
 
 ul {
@@ -30,17 +30,17 @@ ul {
 li {
   padding: 12pt;
   margin: 24pt;
-  border: 1px solid white;
+  border: 1pt solid white;
   transition: border 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 li:hover {
-  border: 1px solid #0ae;
+  border: 1pt solid #0ae;
   background-color: #404040;
 }
 
 li:visited {
-  border: 2px solid red;
+  border: 2pt solid red;
 }
 
 a {

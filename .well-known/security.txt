@@ -1,0 +1,5 @@
+Contact: mailto:ebertek@gmail.com
+Expires: 2099-03-14T22:50:00.000Z
+Encryption: https://ebertek.com/pgp-key.txt
+Canonical: https://ebertek.com/.well-known/security.txt
+

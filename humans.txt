@@ -4,9 +4,9 @@
   Location: Askim, Sweden
 
 /* THANKS */
-  Melinda Bán
+  Linda Ebert
 
 /* SITE */
-  Last update: 2024-03-25
+  Last update: 2026-05-17
   Language: English
   Software: Visual Studio Code

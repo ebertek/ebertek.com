@@ -5,42 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="David Ebert" />
     <meta name="description" content="David Ebert is a taciturn introvert; an IT guy; a panda." />
-    <meta name="robots" content="index, follow" />
-    <meta name="googlebot" content="index, follow" />
     <link rel="author" type="text/plain" href="humans.txt" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <title>David Ebert</title>
   </head>
   <body>
     <div id="wrapper">
-      <header>David Ebert</header>
+      <header>
+        <h1>David Ebert</h1>
+      </header>
       <main>
         <ul>
-          <li><a href="https://www.messenger.com/t/david.ebert" title="Facebook Messenger">Messenger</a></li>
+          <li><a href="https://m.me/david.ebert" title="Facebook Messenger">Messenger</a></li>
           <li><a href="mailto:ebertek@gmail.com" title="Email">ebertek<wbr />@gmail.com</a></li>
         </ul>
         <ul>
-          <li><a href="https://www.linkedin.com/in/ebertdavid/" title="LinkedIn">LinkedIn</a></li>
-          <li><a href="https://github.com/ebertek" title="GitHub">GitHub</a></li>
-          <li><a href="https://www.instagram.com/ebertek/" title="Instagram">Instagram</a></li>
-          <li><a href="http://www.last.fm/user/ebertek" title="Last.fm">Last.fm</a></li>
-          <li><a href="https://trakt.tv/users/ebertek" title="trakt.tv">trakt.tv</a></li>
-          <li><a href="https://foursquare.com/ebertek" title="foursquare">foursquare</a></li>
+          <li><a href="https://www.linkedin.com/in/ebertdavid/">LinkedIn</a></li>
+          <li><a href="https://github.com/ebertek">GitHub</a></li>
+          <li><a href="https://www.instagram.com/ebertek/">Instagram</a></li>
+          <li><a href="http://www.last.fm/user/ebertek">Last.fm</a></li>
+          <li><a href="https://trakt.tv/users/ebertek">trakt.tv</a></li>
+          <li><a href="https://foursquare.com/ebertek">foursquare</a></li>
         </ul>
         <ul>
-          <li><a href="javascript:void(0)" onclick="navigator.clipboard.writeText('800620156307')" title="8006 2015 6307">Pokémon Go<sup> copy to clipboard</sup></a></li>
+          <li><button id="pokemon-go-code" type="button">Pokémon Go <sup>8006 2015 6307</sup></button></li>
         </ul>
         <ul>
-          <li><a href="https://www.discogs.com/user/ebertek/collection?sort=artist&amp;sort_order=asc" title="Discogs – Collection">Discogs – Owned</a></li>
-          <li><a href="https://www.discogs.com/lists/Wishlist/1568197" title="Discogs – Wishlist">Discogs – Wanted</a><sup><a href="https://www.discogs.com/wantlist?page=1&amp;limit=250&amp;user=ebertek&amp;sort=year&amp;sort_order=desc" title="Discogs – Wantlist">*</a></sup></li>
-          <li><a href="https://brickset.com/sets/ownedby-ebertek" title="Brickset – Owned">Brickset – Owned</a></li>
-          <li><a href="https://brickset.com/sets/wantedby-ebertek" title="Brickset – Wanted">Brickset – Wanted</a></li>
+          <li><a href="https://www.discogs.com/user/ebertek/collection?sort=artist&amp;sort_order=asc">Discogs – Owned</a></li>
+          <li><a href="https://www.discogs.com/lists/Wishlist/1568197">Discogs – Wanted</a><sup><a href="https://www.discogs.com/wantlist?page=1&amp;limit=250&amp;user=ebertek&amp;sort=year&amp;sort_order=desc" title="Discogs – Wantlist">*</a></sup></li>
+          <li><a href="https://brickset.com/sets/ownedby-ebertek">Brickset – Owned</a></li>
+          <li><a href="https://brickset.com/sets/wantedby-ebertek">Brickset – Wanted</a></li>
         </ul>
         <p>&nbsp;</p>
         <ul>
-          <li><a href="https://tnt.photo" title="Trips’n’Tricks">Trips’n’Tricks</a></li>
+          <li><a href="https://tnt.photo">Trips’n’Tricks</a></li>
         </ul>
       </main>
     </div>
+    <script>
+      document
+        .getElementById("pokemon-go-code")
+        .addEventListener("click", async () => {
+          await navigator.clipboard.writeText("800620156307");
+        });
+    </script>
   </body>
 </html>

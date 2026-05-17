@@ -39,16 +39,7 @@ li:hover {
   background-color: #404040;
 }
 
-li:has(a:visited) {
-  border: 2pt solid red;
-}
-
-button {
-  all: unset;
-  cursor: pointer;
-}
-
-a, button {
+a {
   text-decoration: none;
   color: #fff;
   transition: color 0.2s ease-out;
@@ -58,11 +49,11 @@ a:link {
   color: #fff;
 }
 
-a:hover, button:hover {
+a:hover {
   color: #0ae;
 }
 
-a:active, button:active {
+a:active {
   color: #ea0;
 }
 

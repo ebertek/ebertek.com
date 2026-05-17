@@ -28,7 +28,7 @@
           <li><a href="https://foursquare.com/ebertek">foursquare</a></li>
         </ul>
         <ul>
-          <li><button id="pokemon-go-code" type="button">Pokémon Go <sup>8006 2015 6307</sup></button></li>
+          <li><a href="#" id="pokemon-go-code">Pokémon Go <sup>8006 2015 6307</sup></a></li>
         </ul>
         <ul>
           <li><a href="https://www.discogs.com/user/ebertek/collection?sort=artist&amp;sort_order=asc">Discogs – Owned</a></li>
@@ -45,7 +45,8 @@
     <script>
       document
         .getElementById("pokemon-go-code")
-        .addEventListener("click", async () => {
+        .addEventListener("click", async (event) => {
+          event.preventDefault();
           await navigator.clipboard.writeText("800620156307");
         });
     </script>

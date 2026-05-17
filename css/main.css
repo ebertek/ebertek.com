@@ -1,16 +1,16 @@
 html, body {
-  background: #808080;
+  color-scheme: light dark;
+  background: oklch(53% 0 0);
   text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Helvetica', system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-size: 1.5em;
-  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
-   -webkit-font-smoothing: antialiased;
 }
 
-header {
+h1 {
   color: #fff;
-  text-shadow: 1pt 2pt 3pt #000;
+  text-shadow: 1px 2px 3px #000;
   font-size: 2em;
   font-weight: bold;
 }
@@ -19,7 +19,7 @@ main {
   max-width: 15em;
   margin: 0 auto;
   color: #fff;
-  text-shadow: 1pt 2pt 3pt #000;
+  text-shadow: 1px 2px 3px #000;
 }
 
 ul {
@@ -28,41 +28,38 @@ ul {
 }
 
 li {
-  padding: 12pt;
-  margin: 12pt;
-  border: 1pt solid white;
+  padding: 0.75lh;
+  margin: 0.75lh;
+  border: 1px solid white;
   transition: border 0.2s ease-out, background-color 0.2s ease-out;
 }
 
 li:hover {
-  border: 1pt solid #0ae;
-  background-color: #404040;
+  border-color: oklch(72% 0.15 210);
+  background-color: oklch(30% 0 0);
 }
 
 a {
   text-decoration: none;
+  text-underline-offset: 3px;
   color: #fff;
   transition: color 0.2s ease-out;
 }
 
-a:link {
-  color: #fff;
-}
-
 a:hover {
-  color: #0ae;
+  color: oklch(72% 0.15 210);
 }
 
 a:active {
-  color: #ea0;
+  color: oklch(80% 0.15 80);
 }
 
 a:visited {
-  color: #eae;
+  color: oklch(85% 0.08 320);
 }
 
-a:visited:hover {
-  color: #0ae;
+a:is(:visited):hover {
+  color: oklch(72% 0.15 210);
 }
 
 sup {
